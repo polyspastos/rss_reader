@@ -8,7 +8,6 @@ import re
 import html
 import threading
 
-# Load RSS feeds from a separate file
 def load_rss_feeds():
     rss_feeds = []
     try:
@@ -19,7 +18,6 @@ def load_rss_feeds():
 
     return rss_feeds
 
-# Function to filter and load run folders
 def load_run_folders():
     run_folders = [folder for folder in os.listdir() if folder[0].isdigit()]
     run_combobox['values'] = run_folders
@@ -88,7 +86,6 @@ def initiate_new_run():
 def refresh_runs():
     load_run_folders()
 
-# Load RSS feeds from the file
 rss_feeds = load_rss_feeds()
 
 window = tk.Tk()
@@ -136,6 +133,6 @@ content_frame.columnconfigure(0, weight=1)
 content_frame.columnconfigure(1, weight=1)
 content_frame.rowconfigure(0, weight=1)
 
-load_run_folders()  # Load run folders initially
+load_run_folders()
 
 window.mainloop()
