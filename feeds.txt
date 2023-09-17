@@ -1,0 +1,7 @@
+https://telex.hu/rss
+https://444.hu/feed
+https://www.portfolio.hu/rss/all.xml
+https://hungarytoday.hu/feed
+https://merce.hu/feed
+https://index.hu/24ora/rss/
+https://feeds.feedburner.com/magyarjelen/rss
